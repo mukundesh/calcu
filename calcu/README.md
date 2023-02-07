@@ -15,15 +15,15 @@ graph TD;
         import/docs --> doOcr_;
         buildTenure_ --> export/data/orders;
         buildTenure_ --> export/data;
-        click buildTenure_ "https://github.com/orgpedia/cabsec2/tree/main/flow/buildTenure_" "buildTenure_";
         click annotateFirst_ "https://github.com/orgpedia/cabsec2/tree/main/flow/annotateFirst_" "annotateFirst_";
+        click doOcr_ "https://github.com/orgpedia/cabsec2/tree/main/flow/doOcr_" "doOcr_";
         click buildOrder/manual_ "https://github.com/orgpedia/cabsec2/tree/main/flow/buildOrder/manual_" "buildOrder/manual_";
-        click buildOrder/list_ "https://github.com/orgpedia/cabsec2/tree/main/flow/buildOrder/list_" "buildOrder/list_";
         click buildOrder/para_ "https://github.com/orgpedia/cabsec2/tree/main/flow/buildOrder/para_" "buildOrder/para_";
         click buildOrder/table_ "https://github.com/orgpedia/cabsec2/tree/main/flow/buildOrder/table_" "buildOrder/table_";
-        click doOcr_ "https://github.com/orgpedia/cabsec2/tree/main/flow/doOcr_" "doOcr_";
-        click export/data "https://github.com/orgpedia/cabsec2/tree/main/export/data" "export/data";
+        click buildTenure_ "https://github.com/orgpedia/cabsec2/tree/main/flow/buildTenure_" "buildTenure_";
+        click buildOrder/list_ "https://github.com/orgpedia/cabsec2/tree/main/flow/buildOrder/list_" "buildOrder/list_";
         click export/data/orders "https://github.com/orgpedia/cabsec2/tree/main/export/data/orders" "export/data/orders";
+        click export/data "https://github.com/orgpedia/cabsec2/tree/main/export/data" "export/data";
         click import/docs "https://github.com/orgpedia/cabsec2/tree/main/import/docs" "import/docs";
 ```
 ## Unprocessed Documents: 93
