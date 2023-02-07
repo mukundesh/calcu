@@ -10,27 +10,22 @@ graph TD;
         annotateFirst_[<div align=leg>annotateFirst_</div><br/>Input: 904<br/>Output: 904] --> buildOrder/para_;
         doOcr_[<div align=leg>doOcr_</div><br/>Input: 904<br/>Output: 904] --> annotateFirst_;
         import/docs --> doOcr_;
-        click buildOrder/list_ "https://github.com/orgpedia/cabsec2/tree/main/flow/buildOrder/list_" "buildOrder/list_";
         click buildOrder/manual_ "https://github.com/orgpedia/cabsec2/tree/main/flow/buildOrder/manual_" "buildOrder/manual_";
-        click buildOrder/para_ "https://github.com/orgpedia/cabsec2/tree/main/flow/buildOrder/para_" "buildOrder/para_";
-        click annotateFirst_ "https://github.com/orgpedia/cabsec2/tree/main/flow/annotateFirst_" "annotateFirst_";
-        click buildTenure_ "https://github.com/orgpedia/cabsec2/tree/main/flow/buildTenure_" "buildTenure_";
-        click buildOrder/table_ "https://github.com/orgpedia/cabsec2/tree/main/flow/buildOrder/table_" "buildOrder/table_";
         click doOcr_ "https://github.com/orgpedia/cabsec2/tree/main/flow/doOcr_" "doOcr_";
+        click buildOrder/list_ "https://github.com/orgpedia/cabsec2/tree/main/flow/buildOrder/list_" "buildOrder/list_";
+        click annotateFirst_ "https://github.com/orgpedia/cabsec2/tree/main/flow/annotateFirst_" "annotateFirst_";
+        click buildOrder/table_ "https://github.com/orgpedia/cabsec2/tree/main/flow/buildOrder/table_" "buildOrder/table_";
+        click buildTenure_ "https://github.com/orgpedia/cabsec2/tree/main/flow/buildTenure_" "buildTenure_";
+        click buildOrder/para_ "https://github.com/orgpedia/cabsec2/tree/main/flow/buildOrder/para_" "buildOrder/para_";
         click import/docs "https://github.com/orgpedia/cabsec2/tree/main/import/docs" "import/docs";
 ```
-## Unprocessed Files: 180
+## Unprocessed Files: 93
 ### Ignored Files:
-  - ignore/duplicates_: 11
-  - ignore/swearingin_: 63
-  - ignore/notRelevant_: 6
-  - ignore/todo_: 3
-  - ignore/correction_: 4
+  - [ignore/duplicates_](ignore/duplicates_): 11
+  - [ignore/swearingin_](ignore/swearingin_): 63
+  - [ignore/notRelevant_](ignore/notRelevant_): 6
+  - [ignore/todo_](ignore/todo_): 3
+  - [ignore/correction_](ignore/correction_): 4
 ### Skipped Files:
-  - buildOrder/table_: 6
-  - ignore/duplicates_: 11
-  - ignore/swearingin_: 63
-  - ignore/notRelevant_: 6
-  - ignore/todo_: 3
-  - ignore/correction_: 4
+  - [buildOrder/table_](buildOrder/table_): 6
 ---* This file is an auto-generated from directory structure of `flow` directory and links present in `input` and `output` sub-folders (tasks)*
