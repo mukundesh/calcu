@@ -1,4 +1,4 @@
-
+# Document Flow Diagram
 ```mermaid
 graph TD;
         buildOrder/table_[<div align=leg>buildOrder/table_</div><br/>Input: 275<br/>Output: 269] --> buildTenure_[<div align=leg>buildTenure_</div><br/>Input: 808<br/>Output: 808];
@@ -10,7 +10,7 @@ graph TD;
         annotateFirst_[<div align=leg>annotateFirst_</div><br/>Input: 904<br/>Output: 904] --> buildOrder/manual_;
         annotateFirst_[<div align=leg>annotateFirst_</div><br/>Input: 904<br/>Output: 904] --> buildOrder/para_;
         doOcr_[<div align=leg>doOcr_</div><br/>Input: 904<br/>Output: 904] --> annotateFirst_;
-        import/docs --> doOcr_;
+        import/documentss --> doOcr_;
         click buildOrder/list_ "https://github.com/orgpedia/cabsec2/tree/main/flow/buildOrder/list_" "buildOrder/list_";
         click buildOrder/para_ "https://github.com/orgpedia/cabsec2/tree/main/flow/buildOrder/para_" "buildOrder/para_";
         click buildTenure_ "https://github.com/orgpedia/cabsec2/tree/main/flow/buildTenure_" "buildTenure_";
