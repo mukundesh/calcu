@@ -1,5 +1,7 @@
 # Document Flow Diagram
-This diagram is an auto-generated from directory structure of `flow` directory and links present in `input` and `output` sub-folders (tasks). Click the box (task) to explore more.```mermaid
+This diagram is an auto-generated from directory structure of `flow` directory and links present in `input` and `output` sub-folders (tasks). Click the box (task) to explore more.
+
+```mermaid
 graph TD;
         buildOrder/table_[<div align=leg>buildOrder/table_</div><br/>input: 275<br/>output: 269] --> buildTenure_[<div align=leg>buildTenure_</div><br/>input: 808<br/>output: 808];
         buildOrder/list_[<div align=leg>buildOrder/list_</div><br/>input: 306<br/>output: 306] --> buildTenure_[<div align=leg>buildTenure_</div><br/>input: 808<br/>output: 808];
