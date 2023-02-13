@@ -13,15 +13,15 @@ graph TD;
 	buildTenure_ --> export/data/schema;
 	buildTenure_ --> export/data;
 	buildTenure_ --> export/data/orders;
-	click annotateFirst_ "https://github.com/orgpedia/cabsec/tree/main/flow/annotateFirst_" "annotateFirst_"
-	click doOcr_ "https://github.com/orgpedia/cabsec/tree/main/flow/doOcr_" "doOcr_"
-	click buildOrder/manual_ "https://github.com/orgpedia/cabsec/tree/main/flow/buildOrder/manual_" "buildOrder/manual_"
-	click buildTenure_ "https://github.com/orgpedia/cabsec/tree/main/flow/buildTenure_" "buildTenure_"
-	click buildOrder/para_ "https://github.com/orgpedia/cabsec/tree/main/flow/buildOrder/para_" "buildOrder/para_"
-	click buildOrder/table_ "https://github.com/orgpedia/cabsec/tree/main/flow/buildOrder/table_" "buildOrder/table_"
-	click buildOrder/list_ "https://github.com/orgpedia/cabsec/tree/main/flow/buildOrder/list_" "buildOrder/list_"
-	click export/data "https://github.com/orgpedia/cabsec/tree/main/export/data" "export/data"
-	click import/documents "https://github.com/orgpedia/cabsec/tree/main/import/documents" "import/documents"
-	click export/data/orders "https://github.com/orgpedia/cabsec/tree/main/export/data/orders" "export/data/orders"
+	click annotateFirst_ "https://github.com/orgpedia/cabsec/tree/main/flow/annotateFirst_" "annotateFirst_";
+	click doOcr_ "https://github.com/orgpedia/cabsec/tree/main/flow/doOcr_" "doOcr_";
+	click buildOrder/manual_ "https://github.com/orgpedia/cabsec/tree/main/flow/buildOrder/manual_" "buildOrder/manual_";
+	click buildTenure_ "https://github.com/orgpedia/cabsec/tree/main/flow/buildTenure_" "buildTenure_";
+	click buildOrder/para_ "https://github.com/orgpedia/cabsec/tree/main/flow/buildOrder/para_" "buildOrder/para_";
+	click buildOrder/table_ "https://github.com/orgpedia/cabsec/tree/main/flow/buildOrder/table_" "buildOrder/table_";
+	click buildOrder/list_ "https://github.com/orgpedia/cabsec/tree/main/flow/buildOrder/list_" "buildOrder/list_";
+	click export/data "https://github.com/orgpedia/cabsec/tree/main/export/data" "export/data";
+	click import/documents "https://github.com/orgpedia/cabsec/tree/main/import/documents" "import/documents";
+	click export/data/orders "https://github.com/orgpedia/cabsec/tree/main/export/data/orders" "export/data/orders";
 	click export/data/schema "https://github.com/orgpedia/cabsec/tree/main/export/data/schema" "export/data/schema";
     ```
