@@ -45,9 +45,9 @@ graph TD;
 	buildTenure_ --> export/data/schema;
 	buildTenure_ --> export/data;
 	buildTenure_ --> export/data/orders;
-	click buildOrder/list_ "https://github.com/orgpedia/cabsec/tree/main/flow/buildOrder/list_" "buildOrder/list_"
-	click buildOrder/para_ "https://github.com/orgpedia/cabsec/tree/main/flow/buildOrder/para_" "buildOrder/para_"
-	click doOcr_ "https://github.com/orgpedia/cabsec/tree/main/flow/doOcr_" "doOcr_"
+	click buildOrder/list_ href "https://github.com/orgpedia/cabsec/tree/main/flow/buildOrder/list_" "buildOrder/list_"
+	click buildOrder/para_ href "https://github.com/orgpedia/cabsec/tree/main/flow/buildOrder/para_" "buildOrder/para_"
+	click doOcr_ href "https://github.com/orgpedia/cabsec/tree/main/flow/doOcr_" "doOcr_"
 	click buildTenure_ "https://github.com/orgpedia/cabsec/tree/main/flow/buildTenure_" "buildTenure_";
 	click annotateFirst_ "https://github.com/orgpedia/cabsec/tree/main/flow/annotateFirst_" "annotateFirst_";
 	click buildOrder/table_ "https://github.com/orgpedia/cabsec/tree/main/flow/buildOrder/table_" "buildOrder/table_";
